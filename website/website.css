@@ -1,0 +1,314 @@
+html{
+    background-image: url("Motion\ Science.jpg");background-size:100vmax;
+    scroll-behavior: smooth;
+}
+*{
+    margin:0;
+    padding:0;
+    font-family:serif;
+    box-sizing: border-box;
+}
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 50px;
+    }
+    ul li{
+    justify-content: space-between;
+    display:inline-block;
+
+    }
+    ul li a:hover{
+    color:rgb(251, 232, 158);
+    text-decoration: underline;
+    }
+    header ul li a{
+    font-size: 25px;
+    text-decoration: wavy;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(255, 254, 254);
+    padding: 20px 0px;
+    border:1px solid transparent;
+    transition:0.6s ease;
+    padding-right: 100px;
+    }
+    h1{
+        padding-top:40px;
+        padding-left:150px;
+        font-family:'Times New Roman', Times, serif;
+        color:rgb(255, 255, 255);
+        font-size: 30px;
+    }
+    .h h2{
+      padding-left: 250px;
+      color:#efefef;
+
+    }
+    .headd p{
+        color:white;
+        text-align: center;
+        padding-top: 50px;
+        font-size: 70px;
+    }
+    .headd h3{
+        text-align: center;
+        color:white;
+        padding-top:20px;
+    }
+    .puz button{
+        font-size: 30px;
+        background: transparent;
+        border-color: white;
+        color:white;
+    }
+    .content{
+        background-color: white;
+    }
+
+    .column {
+        float: left;
+        width: 26.33%;
+        padding: 30px;
+    }
+    .column p{
+        text-align: center;
+    }
+    .row{
+        box-sizing: border-box;
+      }
+      
+    /* Clearfix (clear floats) */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .row{
+        padding-left: 200px;
+    }
+    .column h6{
+        text-align: center;
+        font-size:20px;
+    
+    }
+    .column p{
+        color:black;
+        font-size:25px;
+    }
+    .intro h4{
+        padding-top: 60px;
+        font-size: 30px;
+    }
+    .intro p{
+        font-size: 25px;
+        padding-top: 15px;
+    }
+    img{
+        height:250px;
+    width:200px;
+    background-color: rgb(254, 247, 247);
+    transition: 1s ease;
+    float:inline-end;
+    padding: initial;
+    }
+    .row img {
+        opacity:0.5;
+        transition: 1s ease;
+    }
+            
+    .row img:hover{
+        opacity:1;
+        transition: 1s ease;
+     }
+    .fact h3{
+        color:rgb(255, 255, 255);
+        text-align: center;
+        font-size: 40px;
+        padding-top: 30px;
+    }
+    .fact p{
+        color:rgb(255, 251, 251);
+        text-align:center;
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 30px;
+      }
+      .nature img {
+        width:320px;
+        height:360px;
+
+      }
+      .nature {
+        flex-basis: 40%;
+        padding-top: 80px;
+        padding-left: 120px;
+      }
+      .text h3{
+        font-size: 40px;
+        padding-left: 0px;
+        padding-right: 150px;
+        color:rgb(255, 255, 255);
+      }
+      .text p{
+        color:white;
+        font-size: 25px;
+        padding-top: 10px;
+      }
+      .container2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 160px;
+        padding-top: 80px;
+      }
+      .technology img {
+        width:320px;
+        height:360px;
+      }
+      .technology {
+        flex-basis: 70%;
+        order: 2;
+      }
+      .text2 h3{
+        color: #f5f5f5;
+        padding-left: 0px;
+        padding-right: 150px;
+        font-size: 40px;
+      }
+      .text2 p{
+        color:white;
+        font-size:25px;
+      }
+      .container3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 30px;
+      }
+      .universe img {
+        width:320px;
+        height:360px;
+
+      }
+      .universe {
+        flex-basis: 40%;
+        padding-top: 80px;
+        padding-left: 0px;
+      }
+      .text{
+        padding-left: 100px;
+      }
+      .text3 h3{
+        font-size: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+        color:rgb(255, 255, 255);
+      }
+      .text3 p{
+        color:white;
+        font-size: 25px;
+        padding-top: 10px;
+      }
+      .container4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 160px;
+        padding-top: 80px;
+      }
+      .animals img {
+        width:320px;
+        height:360px;
+      }
+      .animals {
+        flex-basis: 70%;
+        order: 2;
+      }
+      .text4 h3{
+        color: #f5f5f5;
+        padding-left: 0px;
+        padding-right: 150px;
+        font-size: 40px;
+      }
+      .text4 p{
+        color:white;
+        font-size:25px;
+      }
+      .map{
+        background-color: white;
+      }
+      .loc h3{
+        font-family: serif;
+        color:black;
+        background-color: white;
+        font-size:30px;
+        padding-top:50px;
+        padding-bottom:40px;
+      }
+      .mapouter{
+        padding-left:15px;
+      }
+      .footer{
+        margin-top: 30px;
+        width:100%;
+        padding: 100px 15%;
+        background: #334966;
+        color:#efefef;
+        display:flex;
+    }
+    .footer div{
+        text-align: center;
+    }
+    .col-2{
+        flex-grow: 2;
+    }
+    .footer div h3{
+        font-weight: 300;
+        padding-bottom: 30px;
+        letter-spacing: 1px;
+    }
+    .col-1 a{
+        display:block;
+        text-decoration: none;
+        margin-bottom: 10px;
+        color:#efefef
+    }
+    .col-3 p{
+        color:#efefef;
+    }
+    form input{
+        width:400px;
+        height:45px;
+        border-radius: 4px;
+        text-align: center;
+        margin-top:20px;
+        margin-bottom: 40px;
+        outline:none;
+        border:none;
+    }
+    form button{
+        background: transparent;
+        border:2px solid #fff;
+        border-radius: 30px;
+        padding: 10px 30px;
+    }
+    .social-icons{
+        margin-top: 30px;
+    }
+    .social-icons i{
+        font-size: 22px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .contact h3{
+      color:black;
+      text-align: center;
+      font-size: 30px;
+      padding-top: 30px;
+      padding-bottom: 10px;
+    }
